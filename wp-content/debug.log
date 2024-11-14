@@ -1,0 +1,80 @@
+[14-Nov-2024 04:59:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "display_cities_location_fields" not found or invalid function name in D:\xampp\htdocs\TestWork789\wp-admin\includes\template.php:1456
+Stack trace:
+#0 D:\xampp\htdocs\TestWork789\wp-admin\includes\post.php(2382): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 D:\xampp\htdocs\TestWork789\wp-admin\edit-form-blocks.php(346): the_block_editor_meta_boxes()
+#2 D:\xampp\htdocs\TestWork789\wp-admin\post-new.php(72): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\TestWork789\wp-admin\includes\template.php on line 1456
+[14-Nov-2024 06:42:09 UTC] Automatic updates starting...
+[14-Nov-2024 06:42:10 UTC] Automatic updates complete.
+[14-Nov-2024 06:55:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ssave_cities_fields_data" not found or invalid function name in D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php:326
+Stack trace:
+#0 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 D:\xampp\htdocs\TestWork789\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\TestWork789\wp-includes\post.php(5060): do_action('save_post', 10, Object(WP_Post), true)
+#3 D:\xampp\htdocs\TestWork789\wp-includes\post.php(5162): wp_insert_post(Array, true, false)
+#4 D:\xampp\htdocs\TestWork789\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(946): wp_update_post(Array, true, false)
+#5 D:\xampp\htdocs\TestWork789\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#6 D:\xampp\htdocs\TestWork789\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/cities/(...', Array, NULL)
+#7 D:\xampp\htdocs\TestWork789\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 D:\xampp\htdocs\TestWork789\wp-includes\rest-api.php(449): WP_REST_Server->serve_request('/wp/v2/cities/1...')
+#9 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#10 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 D:\xampp\htdocs\TestWork789\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 D:\xampp\htdocs\TestWork789\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#13 D:\xampp\htdocs\TestWork789\wp-includes\class-wp.php(813): WP->parse_request('')
+#14 D:\xampp\htdocs\TestWork789\wp-includes\functions.php(1336): WP->main('')
+#15 D:\xampp\htdocs\TestWork789\wp-blog-header.php(16): wp()
+#16 D:\xampp\htdocs\TestWork789\index.php(17): require('D:\\xampp\\htdocs...')
+#17 {main}
+  thrown in D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php on line 326
+[14-Nov-2024 06:55:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ssave_cities_fields_data" not found or invalid function name in D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php:326
+Stack trace:
+#0 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 D:\xampp\htdocs\TestWork789\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\TestWork789\wp-includes\post.php(5060): do_action('save_post', 10, Object(WP_Post), true)
+#3 D:\xampp\htdocs\TestWork789\wp-includes\post.php(5162): wp_insert_post(Array, true, false)
+#4 D:\xampp\htdocs\TestWork789\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(946): wp_update_post(Array, true, false)
+#5 D:\xampp\htdocs\TestWork789\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#6 D:\xampp\htdocs\TestWork789\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/cities/(...', Array, NULL)
+#7 D:\xampp\htdocs\TestWork789\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 D:\xampp\htdocs\TestWork789\wp-includes\rest-api.php(449): WP_REST_Server->serve_request('/wp/v2/cities/1...')
+#9 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#10 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 D:\xampp\htdocs\TestWork789\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 D:\xampp\htdocs\TestWork789\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#13 D:\xampp\htdocs\TestWork789\wp-includes\class-wp.php(813): WP->parse_request('')
+#14 D:\xampp\htdocs\TestWork789\wp-includes\functions.php(1336): WP->main('')
+#15 D:\xampp\htdocs\TestWork789\wp-blog-header.php(16): wp()
+#16 D:\xampp\htdocs\TestWork789\index.php(17): require('D:\\xampp\\htdocs...')
+#17 {main}
+  thrown in D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php on line 326
+[14-Nov-2024 07:31:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method City_Weather_Widget::get_post_meta() in D:\xampp\htdocs\TestWork789\wp-content\themes\testwork789\functions.php:158
+Stack trace:
+#0 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-widget.php(535): City_Weather_Widget->form(Array)
+#1 D:\xampp\htdocs\TestWork789\wp-admin\includes\widgets.php(276): WP_Widget->form_callback(Array)
+#2 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-customize-widgets.php(1166): wp_widget_control(Array, Array)
+#3 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-customize-widgets.php(1114): WP_Customize_Widgets->get_widget_control(Array)
+#4 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-customize-widgets.php(714): WP_Customize_Widgets->get_available_widgets()
+#5 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php(324): WP_Customize_Widgets->enqueue_scripts('')
+#6 D:\xampp\htdocs\TestWork789\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 D:\xampp\htdocs\TestWork789\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\xampp\htdocs\TestWork789\wp-admin\customize.php(127): do_action('customize_contr...')
+#9 {main}
+  thrown in D:\xampp\htdocs\TestWork789\wp-content\themes\testwork789\functions.php on line 158
+[14-Nov-2024 07:33:46 UTC] PHP Warning:  Undefined variable $latitude in D:\xampp\htdocs\TestWork789\wp-content\themes\testwork789\functions.php on line 158
+[14-Nov-2024 07:33:53 UTC] PHP Warning:  Undefined variable $latitude in D:\xampp\htdocs\TestWork789\wp-content\themes\testwork789\functions.php on line 158
+[14-Nov-2024 07:34:42 UTC] PHP Warning:  Undefined variable $latitude in D:\xampp\htdocs\TestWork789\wp-content\themes\testwork789\functions.php on line 158
+[14-Nov-2024 07:34:47 UTC] PHP Warning:  Undefined variable $latitude in D:\xampp\htdocs\TestWork789\wp-content\themes\testwork789\functions.php on line 158
+[14-Nov-2024 07:59:50 UTC] PHP Fatal error:  Cannot redeclare City_Weather_Widget::__construct() in D:\xampp\htdocs\TestWork789\wp-content\themes\testwork789\functions.php on line 111
+[14-Nov-2024 08:00:17 UTC] PHP Fatal error:  Cannot redeclare City_Weather_Widget::__construct() in D:\xampp\htdocs\TestWork789\wp-content\themes\testwork789\functions.php on line 111
+[14-Nov-2024 09:04:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\xampp\htdocs\TestWork789\wp-includes\class-wpdb.php on line 1982
+[14-Nov-2024 09:04:31 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\xampp\htdocs\TestWork789\wp-includes\class-wpdb.php on line 1982
+[14-Nov-2024 09:05:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\xampp\htdocs\TestWork789\wp-includes\class-wpdb.php on line 1982
+[14-Nov-2024 10:08:57 UTC] PHP Warning:  Attempt to read property "show_ui" on null in D:\xampp\htdocs\TestWork789\wp-admin\includes\class-wp-terms-list-table.php on line 603
+[14-Nov-2024 10:08:57 UTC] PHP Warning:  Attempt to read property "show_ui" on null in D:\xampp\htdocs\TestWork789\wp-admin\includes\class-wp-terms-list-table.php on line 603
+[14-Nov-2024 10:09:05 UTC] PHP Warning:  Attempt to read property "show_ui" on null in D:\xampp\htdocs\TestWork789\wp-admin\includes\class-wp-terms-list-table.php on line 603
+[14-Nov-2024 10:09:05 UTC] PHP Warning:  Attempt to read property "show_ui" on null in D:\xampp\htdocs\TestWork789\wp-admin\includes\class-wp-terms-list-table.php on line 603
+[14-Nov-2024 17:21:01 UTC] WordPress database error Table 'testwork789.your_table_name' doesn't exist for query SELECT country, city, temperature FROM your_table_name made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/testwork789/template-cities-temperatures.php')
+[14-Nov-2024 17:48:24 UTC] Automatic updates starting...
+[14-Nov-2024 17:48:27 UTC] Automatic updates complete.
